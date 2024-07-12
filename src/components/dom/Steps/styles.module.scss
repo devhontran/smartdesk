@@ -1,0 +1,28 @@
+.wrap {
+  display: flex;
+  position: fixed;
+  bottom: 32px;
+  left: 0;
+  justify-content: center;
+  z-index: 2;
+  gap: 5px;
+  width: 100%;
+
+  button {
+    border: 1px solid blue;
+    height: 48px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all .4s ease;
+
+    &:hover {
+      background: blue;
+      color: white;
+    }
+  }
+}
+
+.steps {
+  display: flex;
+  gap: 5px;
+}
